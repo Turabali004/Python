@@ -43,10 +43,10 @@ person = {
 }
 
 # Dictionary operations
-print(person["name"])           # Access value
-print(person.get("age"))        # Get with default
+# print(person["name"])           # Access value
+# print(person.get("age"))        # Get with default
 person["email"] = "j@ex.com" 
-print(person)
+# print(person)
 # Add/Update
 # del person["city"]              # Delete key
 # person.pop("age")               # Remove and return
@@ -58,8 +58,10 @@ print(person)
 
 # Dictionary iteration
 for key, value in person.items():
-    print(f"{key}: {value}")
+    print(key, value)
 
 # Dictionary comprehension
 # squares = {x: x**2 for x in range(5)}
+squares = {x*2 for x in range(5)}
+print(squares)
 # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
