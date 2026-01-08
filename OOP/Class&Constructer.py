@@ -4,5 +4,8 @@ class Car:
             self.model = model
 
 my_car = Car("Toyota", "Corolla")
+
+
+
 print(my_car.brand)
 print(my_car.model)
