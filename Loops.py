@@ -131,14 +131,49 @@
 #     else: 
 #         print("Invalid number")
 
-number = 29
+# number = 29
 
-if number > 1:
-    for i in range(2, number):
-        if (number % i) == 0:
-            print(number, "is not a prime number")
-            break
-    else:
-        print(number, "is a prime number")
-else:
-    print(number, "is not a prime number")
+# if number > 1:
+#     for i in range(2, number):
+#         if (number % i) == 0:
+#             print(number, "is not a prime number")
+#             break
+#     else:
+#         print(number, "is a prime number")
+# else:
+#     print(number, "is not a prime number")
+
+# fruits = {"apple", "banana", "cherry"}
+# newFuit = {"orange", "mango", "cherry", "pineapple"}
+
+# print(fruits & newFuit)
+
+
+# numbers = [1, 2, 2, 3, 4, 4, 4, 5]
+# unique_numbers = set(numbers)
+
+# print(unique_numbers) # [1, 2, 3, 4, 5]
+
+
+# fruits = ["apple", "banana", "cherry", "cherry"]
+# newItems = set(fruits)
+# print(newItems)
+
+
+# person = {
+#     "name": "John",
+#     "age": 25,
+#     "city": "NYC"   
+# }
+
+# for val,key in person.items(): 
+#     print(val, key)
+
+
+# def func(message, *args, **kwargs):
+#     print(message)
+#     print(args)
+#     print(kwargs)
+
+# func("Hello world", 1, 2, 3, name="John", age=25)
+
