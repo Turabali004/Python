@@ -177,3 +177,9 @@
 
 # func("Hello world", 1, 2, 3, name="John", age=25)
 
+
+list = ["val1", "val2", "val3", "val4", "val5"]
+
+# for i in list:
+#     print(i)
+
