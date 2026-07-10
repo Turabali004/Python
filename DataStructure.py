@@ -57,11 +57,46 @@ person["email"] = "j@ex.com"
 # print(person.items())           # All key-value pairs
 
 # Dictionary iteration
-for key, value in person.items():
-    print(key, value)
+# for key, value in person.items():
+    # print(key, value)
 
 # Dictionary comprehension
 # squares = {x: x**2 for x in range(5)}
 # squares = {x*2 for x in range(5)}
 # print(squares)
 # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+# sentence = "I love coding"
+
+
+# def func():
+#     print("hello")
+# func()
+
+
+
+# char1 = ["John", "Alax", "Ben"]
+# char2 = ["Kelly", "Sam", "Rachel"]
+
+# print(list(zip(char1, char2)))
+
+
+# def func(a, b, c):
+#     print(a+b+c)
+
+# numbers = [1, 2, 3]
+# func(*numbers)
+
+
+def func(num, *args):
+    for item in args:
+        return f"{num + item}"
+
+func(1, 2, 3, 4, 5)
+
+
+# def func(name, *args):
+#     for item in args:
+#         print(f"{name}, {item}")
+
+# func("John", "Alax", "Ben")
